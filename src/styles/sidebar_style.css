@@ -1,5 +1,5 @@
 .side_bar_menu {
-  background-color: #3326ae;
+  background-color: #1260CC;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@
   .app_container {
     display: flex;
     flex-direction: column-reverse;
-    background-color: #3326ae;
+    background-color: #1260CC;
     width: 100%;
   }
   .icon_wrapper {
@@ -46,7 +46,7 @@
     width: 100%;
   }
   .side_bar_menu {
-    background-color: #3326ae;
+    background-color: #1260CC;
     height: max-content;
     display: flex;
     flex-direction: column;

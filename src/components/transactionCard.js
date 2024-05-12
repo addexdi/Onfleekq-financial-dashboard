@@ -48,7 +48,7 @@ const TransactionCard = () => {
         <div>..</div>
       </div>
       <div className="card_container">
-        <img src={cardImage} alt="card Image" className="card_image" />
+        <img src={cardImage} alt="card" className="card_image" />
       </div>
       <div className="card_transaction">
         <div>Transaction</div>
