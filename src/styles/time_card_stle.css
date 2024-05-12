@@ -1,0 +1,54 @@
+.graph_part{
+    width: 48%;
+    position: relative;
+    min-height: 236px;
+    box-shadow: 0 4px 10px #F5F5FC, 0 1px 4px #F5F5FC;
+    border-radius: 10px;
+}
+.line_graph{
+    position: absolute;
+    bottom: 30px;
+    z-index: 1;
+    display: flex;
+}
+.wave_graph{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+.graph_time{
+    position: absolute;
+    right: -38px;
+    top: -40px;
+    background-color: #FF0000;
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px #F5F5FC, 0 1px 3px #F5F5FC;
+    color: white;
+}
+.box{
+    width: 8px;
+    height: 8px;
+    background-color: #FF0000;
+    rotate: 45deg;
+    position: absolute;
+    top: -13px;
+    right: 3px;
+}
+.day{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 10px;
+    margin: 10px 0;
+}
+.graph_text{
+    padding: 10px;
+}
+@media screen and (max-width: 1050px) {
+.graph_part{
+    width: 100%;
+}
+}

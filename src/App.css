@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.app_container{
+  display: flex;
+  background-color: #3326AE;
+}
+.page_container{
+  background-color: #fff;
+  width: 100%;
+  border-radius: 30px 0px 0 30px;
+  padding: 30px;
+}
+.side_bar_container{
+width: 5%;
+}
+
+@media screen and (max-width: 1050px) {
+.side_bar_container{
+width: 100%;
+}
+}
+
+@media screen and (max-width: 600px) {
+.app_container{
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #3326AE;
+}
+.side_bar_container{
+width: 100%;
+}
+.page_container{
+ padding: 0;
+ border-radius: 0px;
+}
+
+}
+

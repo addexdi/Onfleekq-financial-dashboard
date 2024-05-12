@@ -1,0 +1,54 @@
+.navbar_container {
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 30px; */
+  border-radius: 30px;
+}
+.input {
+  border: none;
+  background-color: #f5f5fc;
+  outline: none;
+  height: max-content;
+  width: 100%;
+  font-size: small;
+}
+.search_container {
+  background-color: #f5f5fc;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 33px;
+  width: 420px;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.bell_icon {
+  width: 20px;
+}
+.profile_icon {
+  width: 30px;
+}
+.menu_items {
+  display: flex;
+  gap: 40px;
+}
+.menu_icon {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+}
+.menu_icon_list {
+  cursor: pointer;
+}
+.search_menu_container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .search_menu_container {
+    display: none;
+  }
+}

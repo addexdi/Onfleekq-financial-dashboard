@@ -1,0 +1,64 @@
+.card_body {
+  background-color: #f5f5fc;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.edit_icon {
+  width: 30px;
+}
+.edit_icon_container {
+  display: flex;
+  justify-content: end;
+}
+.transaction_progress_bar_container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.transaction_price{
+    position: relative;
+    right: -40px;
+    background-color: #3326AE;
+    height: max-content;
+    color: #ffff;
+    margin-top: 10px;
+    padding:5px 10px;
+    box-shadow: 0 4px 6px #D4D0E6, 0 1px 3px #D4D0E6;
+    border-radius: 5px;
+}
+.progress_component{
+    margin-right: -60px;
+}
+.card_text{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_container{
+margin-top: 20px;
+}
+.card_image{
+  width: 100%;
+}
+.card_transaction{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.transaction_card_entry{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.transaction_card_entry_detail{
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 600px) {
+.transaction_price{
+    right: -15px;
+}
+}

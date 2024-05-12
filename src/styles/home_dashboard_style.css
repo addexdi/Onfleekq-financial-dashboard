@@ -1,0 +1,68 @@
+
+.analytic_card {
+  display: flex;
+  gap: 40px;
+}
+.dashboard_body {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+.transaction_card {
+  width: 35%;
+}
+.analytic_card_body {
+  width: 65%;
+}
+
+.card_details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.statistics_image {
+  margin-top: 40px;
+}
+.statics {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+  .analytic_card {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .card_details {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 600px) {
+  .analytic_card_body {
+    width: 100%;
+    /* padding: 0 10px; */
+  }
+  .dashboard_body {
+    display: block;
+  }
+  .transaction_card {
+    width: 100%;
+    width: 90%;
+    padding: 0 20px;
+  }
+  .statistics_image {
+    width: 95%;
+    margin-top: 60px;
+  }
+   .analytic_card {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    width: 90%;
+  }
+  .card_details {
+ width: 90%;
+ padding: 0 20px;
+}
+}

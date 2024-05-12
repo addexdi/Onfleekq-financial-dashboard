@@ -1,0 +1,51 @@
+.details_container {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+}
+.detail_profession {
+  font-size: 10px;
+  margin-top: 3px;
+  color: gray;
+}
+.detail_username {
+  font-weight: 600;
+}
+.detail_title {
+  width: 80%;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.profile_card_container {
+  width: 48%;
+  box-shadow: 0 4px 10px #f5f5fc, 0 1px 4px #f5f5fc;
+  padding: 10px;
+  border-radius: 10px;
+}
+.profile_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.profile_connect {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+.connect_button{
+    background-color: #3326AE;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1050px) {
+.profile_card_container {
+  width: 100%;
+  margin-top: 10px;
+}
+}
