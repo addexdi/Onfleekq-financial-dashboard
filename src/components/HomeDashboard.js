@@ -53,7 +53,7 @@ const HomeDashboard = () => {
           <div className="statistics_image">
             <img
               src={StatistcisImage}
-              alt="Statistics Image"
+              alt="Statistics"
               className="statics"
             />
           </div>
