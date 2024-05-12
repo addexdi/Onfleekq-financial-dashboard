@@ -1,7 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
 import SideBar from "./layouts/SideBar";
-import Navbar from "./layouts/NavBar";
 import HomeDashboard from "./components/HomeDashboard";
 
 function App() {
